@@ -1,0 +1,13 @@
+package mypack;
+
+public class Practice {
+
+	public static void main(String[] args ) {
+		// TODO Auto-generated method stub
+                 boolean condition1 = true;
+		if(condition1) {
+                	 System.out.println("Hurrayy");
+                 }
+	}
+
+}

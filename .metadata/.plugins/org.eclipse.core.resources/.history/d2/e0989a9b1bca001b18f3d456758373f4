@@ -1,0 +1,23 @@
+package mypack;
+
+public class MyMethod {
+	
+	
+	public static void Sum(int x , int y) {
+		System.out.println(x+y);
+		
+		Sum(4,3);
+	}
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        
+        	 
+         
+           
+           
+           
+	}
+
+}

@@ -1,0 +1,23 @@
+package mypack;
+
+public class Method2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+      //write a method to find whether a no is odd or even and return the result in a string format
+	}
+	
+	
+	public static String oddOrEven(int x) {
+		
+          if(x%2==0) {
+        	  System.out.println("The no is even");
+          }
+          
+          else {
+        	  System.out.println("The no is odd");
+          }
+                return "x" ;
+	}     
+              
+}

@@ -1,0 +1,30 @@
+package mypack;
+
+public class Method2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+      //write a method to find whether a no is odd or even and return the result in a string format
+		String i = oddOrEven(5);
+		System.out.println(i);
+		
+		
+	}
+	
+	
+	public static String oddOrEven(int num) {
+		
+		 String s = "";
+		
+          if(num%2==0) {
+        	  s = "The no is even";
+        	  
+          }
+          
+          else {
+        	  s = "The no is odd";
+          }
+                return s ;
+	}     
+              
+}

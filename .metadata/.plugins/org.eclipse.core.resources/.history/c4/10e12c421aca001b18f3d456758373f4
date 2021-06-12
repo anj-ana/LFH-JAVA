@@ -1,0 +1,19 @@
+package mypack;
+
+public class MyMethod {
+	
+	public void Sum() {
+		System.out.println("print the sum");
+	}
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+           float a = 10;
+           int b = 5;
+           float c = a * b;
+           System.out.println(c);
+           
+	}
+
+}
