@@ -42,6 +42,21 @@ class ThreadThree extends Thread{
 }
 	}
 }
+class ThreadFour extends Thread{
+	public vid run(){
+		for(int i=0;i<4;i++) {
+			System.out.println("Yeah!!It's Christhmas Here!!!!");
+		}
+		try{
+			Thread.sleep(1000)
+		}
+		catch(Exception e){
+		
+		}
+		
+	}
+}
+
 
 public class DemoThread {
 
@@ -50,9 +65,11 @@ public class DemoThread {
 		ThreadOne obj1 = new ThreadOne();
 		ThreadTwo obj2 = new ThreadTwo();
 		ThreadThree obj3 = new ThreadThree();
+		ThreadFour obj4 = new ThreadFour();
 		obj1.start();
 		obj2.start();
 		obj3.start();
+		obj4.start()
 
 	}
 	
