@@ -57,6 +57,20 @@ class ThreadFour extends Thread{
 	}
 }
 
+class ThreadFour extends Thread{
+	public vid run(){
+		for(int i=0;i<4;i++) {
+			System.out.println("ooh!! It's over");
+		}
+		try{
+			Thread.sleep(2000)
+		}
+		catch(Exception e){
+		
+		}
+		
+	}
+}
 
 public class DemoThread {
 
@@ -66,10 +80,13 @@ public class DemoThread {
 		ThreadTwo obj2 = new ThreadTwo();
 		ThreadThree obj3 = new ThreadThree();
 		ThreadFour obj4 = new ThreadFour();
+		ThreadFive obj5 = new ThreadFive();
 		obj1.start();
 		obj2.start();
 		obj3.start();
-		obj4.start()
+		obj4.start();
+		obj5.start();
+			
 
 	}
 	
